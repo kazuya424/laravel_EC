@@ -1,0 +1,147 @@
+img.cart {
+    width: 30px;
+}
+
+img.incart {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    height: 140px;
+    object-fit: cover;
+}
+
+.mycart_box {
+    color: #4c4c4c;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 24px;
+    padding: 24px 8px;
+    font-size: 1.1em;
+    background-color: #fefefe;
+}
+
+.footer_design {
+    background-color: #212529;
+    text-align: center;
+    color: #fefefe;
+    padding: 15px;
+}
+
+.buy-btn {
+    margin: 40px auto 60px;
+    width: 200px;
+    display: block;
+    background-color: #ff5c73;
+}
+
+.ball {
+    position: absolute;
+}
+
+.pagenate {
+    width: 200px;
+    margin: 20px auto;
+}
+
+// home
+.panel-list {
+    overflow: hidden;
+    margin-right: -15px;
+}
+
+.page-title {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#contents {
+    overflow: hidden;
+    margin: 20px auto;
+}
+
+.site-width {
+    margin: 0 auto;
+    width: 980px;
+}
+
+.page-2colum #main {
+    width: 760px;
+}
+
+#main {
+    border: none !important;
+    float: left;
+    min-height: 600px;
+}
+
+#sidebar {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 20px;
+    padding: 15px;
+    min-height: 600px;
+    width: 200px;
+    background: #f6f5f4;
+
+    a {
+        color: #444;
+    }
+}
+
+// userthumbnail
+.topWrapper {
+    width: 150px;
+    margin: 0 auto;
+}
+
+.thumbnail {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.editThumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.buttonSet {
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+
+.labelTitle {
+    color: #006dd9;
+    margin: 20px 0 5px 0;
+}
+
+input[class="userForm"] {
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    transition: 1s;
+}
+input[class="userForm"]:focus {
+    background: #87ceeb;
+}
+
+.btn-done {
+    background: #dc143c;
+    border: 1px solid #dc143c;
+}
+.btn-done:hover {
+    background: #cc1237;
+    border: 1px solid #cc1237;
+}
+
+.error {
+    font-size: 15px;
+    font-weight: 100;
+    color: #cc1237;
+}
