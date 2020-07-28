@@ -11026,11 +11026,10 @@ img.incart {
 }
 
 .thumbnail {
-  width: 30px;
-  height: 30px;
+  width: 100%;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50%;
 }
 
 .editThumbnail {
@@ -11038,7 +11037,6 @@ img.incart {
   height: 150px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 50%;
 }
 
 .buttonSet {
@@ -11077,5 +11075,9 @@ input[class=userForm]:focus {
   font-size: 15px;
   font-weight: 100;
   color: #cc1237;
+}
+
+.card {
+  display: flex;
 }
 

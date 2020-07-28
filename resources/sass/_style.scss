@@ -97,17 +97,17 @@ img.incart {
 }
 
 .thumbnail {
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 50%;
+    // border-radius: 50%;
 }
 
 .editThumbnail {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 50%;
+    // border-radius: 50%;
 }
 
 .buttonSet {
@@ -144,4 +144,10 @@ input[class="userForm"]:focus {
     font-size: 15px;
     font-weight: 100;
     color: #cc1237;
+}
+
+// homeIndex
+.card {
+    display: -webkit-flex;
+    display: flex;
 }

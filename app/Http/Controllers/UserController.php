@@ -20,7 +20,7 @@ class UserController extends Controller
             'authUser' => $authUser,
             'users' => $users
         ];
-        return view('user.index', $param);
+        return view('homeIndex', $param);
     }
 
     public function userEdit(Request $request)
