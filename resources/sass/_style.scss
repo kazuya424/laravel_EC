@@ -67,27 +67,33 @@ img.incart {
 }
 
 .page-2colum #main {
-    width: 760px;
+    width: 360px;
 }
 
 #main {
-    border: none !important;
+    // border: none !important;
     float: left;
-    min-height: 600px;
+    // min-height: 600px;
 }
 
 #sidebar {
-    float: left;
+    float: right;
     box-sizing: border-box;
     margin-right: 20px;
     padding: 15px;
     min-height: 600px;
-    width: 200px;
+    width: 250px;
     background: #f6f5f4;
+    text-align: center;
 
     a {
         color: #444;
     }
+}
+
+.card_home {
+    float: left;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.25);
 }
 
 // userthumbnail
@@ -146,8 +152,8 @@ input[class="userForm"]:focus {
     color: #cc1237;
 }
 
-// homeIndex
-.card {
-    display: -webkit-flex;
-    display: flex;
-}
+// // home
+// .card {
+//     display: -webkit-flex;
+//     display: flex;
+// }

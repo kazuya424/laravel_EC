@@ -24,9 +24,10 @@ Route::group(['middleware' => ['auth']], function () {
     Route::post('/checkout', 'ShopController@checkout');
 
     // 追加
-    Route::get('/home/user', 'UserController@index')->name('homeIndex');
+    Route::get('/home', 'UserController@index')->name('home');
     Route::get('/home/user/userEdit', 'UserController@userEdit')->name('user.userEdit');
     Route::post('/home/user/userEdit', 'UserController@userUpdate')->name('user.userUpdate');
+    // Route::post('/home/user/userEdit', 'UserController@userDelete')->name('user.userDelete');
 });
 
 Auth::routes();

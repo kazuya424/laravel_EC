@@ -35,7 +35,7 @@
 
         <div class="buttonSet">
             <input type="submit" name="send" value="ユーザー変更" class="btn btn-primary btn-sm btn-done">
-            <a href="{{ route('homeIndex') }}" class="btn btn-primary btn-sm">戻る</a>
+            <a href="{{ route('home') }}" class="btn btn-primary btn-sm">戻る</a>
         </div>
     </form>
 </div>

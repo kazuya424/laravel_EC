@@ -20,7 +20,7 @@ class UserController extends Controller
             'authUser' => $authUser,
             'users' => $users
         ];
-        return view('homeIndex', $param);
+        return view('home', $param);
     }
 
     public function userEdit(Request $request)
@@ -71,4 +71,10 @@ class UserController extends Controller
         User::where('id', $request->user_id)->update($param);
         return redirect(route('user.userEdit'))->with('success', '保存しました。');
     }
+
+    // public function Detele(Request $request)
+    // {
+    //     User::find($request->thumbnail)->delete();
+    //     return redirect(route('user.Edit'))->with('success', '削除しました');
+    // }
 }
