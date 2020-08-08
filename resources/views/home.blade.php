@@ -29,7 +29,19 @@
             <div class="card-body">
                 <h5 class="card-title">{{ $authUser->name }}</h5>
                 <a href="{{ route('user.userEdit') }}" class="btn btn-primary btn-sm">編集</a>
-                <a href="{{ route('user.userEdit') }}" class="btn btn-danger btn-sm">削除</a>
+
+
+                <!-- <form method="post" action="#" enctype="multipart/form-data">
+                    {{ csrf_field() }}
+
+                    <input type="hidden" name="user_id" value="{{ $authUser->id }}">
+                    @if($errors->has('user_id'))<div class="error">{{ $errors->first('user_id') }}</div>@endif
+
+                    <div class="buttonSet">
+                        <input type="submit" name="send" value="削除" class="btn btn-primary btn-sm btn-done">
+                    </div>
+                </form> -->
+                <!-- <a href="{{ route('user.userEdit') }}" class="btn btn-danger btn-sm">削除</a> -->
             </div>
         </div>
 

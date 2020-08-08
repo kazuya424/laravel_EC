@@ -72,9 +72,9 @@ class UserController extends Controller
         return redirect(route('user.userEdit'))->with('success', '保存しました。');
     }
 
-    // public function Detele(Request $request)
+    // public function userDestroy(Request $request)
     // {
     //     User::find($request->thumbnail)->delete();
-    //     return redirect(route('user.Edit'))->with('success', '削除しました');
+    //     return redirect(route('user.userDestroy'))->with('success', '削除しました');
     // }
 }
